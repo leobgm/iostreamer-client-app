@@ -2,7 +2,4 @@
 /*
 # Except this file
 !/.gitignore
-!/app.io
-!/node_modules
-!/README.md
-!/public
+!/magnum
