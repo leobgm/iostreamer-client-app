@@ -830,6 +830,12 @@ h1,h2,h3,h4,h5,h6 {
   padding: 3px;
 }
 
+.watched-icon {
+  content:url("/magnum/v1/themes/iostreamer-light/img/watched.png");
+  width: 30px;
+  padding: 3px;
+}
+
 .radio-playing {
   content:url("/magnum/v1/themes/iostreamer-light/img/loader.gif");
   margin-left: 2%;
