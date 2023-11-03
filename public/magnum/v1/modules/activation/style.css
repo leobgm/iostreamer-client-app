@@ -1,0 +1,199 @@
+/*
+Don't remove this style.
+Replace 'sample_am' with the directory name of your module.
+*/
+.menu-item.activation .icon {
+  background: url('/magnum/v1/modules/activation/img/icon.png') no-repeat;
+}
+/*
+Don't remove this style.
+Replace 'SAMPLE MODULE' with your module name. This will be shown as icon title.
+*/
+.menu-item.activation .title h1::after {
+  content: 'ACTIVATION'
+}
+/*
+Add your custom CSS in following lines.
+Use custom prefix for names. i.e _am
+*/
+
+._am-main-div {
+  /*background: #2d2d2d;*/
+  height: 100%;
+  padding: 10%;
+  padding-top: 3%;
+  color: white;
+}
+
+._am-text {
+  line-height: 40px;
+}
+
+._am-icons {
+  overflow: hidden;
+  padding-left: 20%;
+  height: 330px !important;
+}
+
+._am-icon {
+  width: 26%;
+  height: 200px;
+  background: #1c1c1c;
+  margin: 4%;
+  border-radius: 30px;
+  text-align: center;
+  padding: 2%;
+  float: left;
+}
+
+._am-icon.active {
+  box-shadow: 0 0 0 0;
+}
+
+._am-icon img {
+  margin-bottom: 15%;
+}
+
+._am-icon.activation img {
+  content: url("/magnum/v1/modules/activation/img/activation.png")
+}
+
+._am-icon.movie-request img {
+  content: url("/magnum/v1/modules/activation/img/movie_request.png")
+}
+
+._am-icon.series-request img {
+  content: url("/magnum/v1/modules/activation/img/series_request.png")
+}
+
+._am-icon.activation.active {
+  background: #ffb300;
+  box-shadow: 0 0 50px 0px #bd9532;
+}
+
+._am-icon.movie-request.active {
+  background: #f11;
+  box-shadow: 0 0 50px 0px #b02828;
+}
+
+._am-icon.series-request.active {
+  background: #3496ff;
+  box-shadow: 0 0 50px 0px #2d5093;
+}
+
+._am-btn {
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border: 4px solid white;
+  border-radius: 50px;
+  background: gray;
+  color: white;
+  font-size: large;
+  margin-left: 0;
+}
+
+._am-input {
+  width: 400px;
+  height: 25px;
+  border: 4px solid transparent;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: x-large;
+  background: #373737;
+  color: white;
+  margin-bottom: 4%;
+}
+
+._am-input.active {
+  border: 4px solid orange;
+}
+
+._am-btn.active {
+  border: 4px solid orange;
+}
+
+._am-message {
+  background: #5e5e5e;
+  padding: 10px;
+  border-radius: 10px;
+  display: none;
+  margin-left: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+._am-message h4 {
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+._am-message.success {
+  background: #21b54d !important;
+}
+
+._am-message.error {
+  background: #b52121 !important;
+}
+
+._am-series-main {
+
+}
+
+._am-hidden {
+  display: none !important;
+}
+
+._am-hide-long-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+._am-media-row {
+  position: relative;
+  width: 9%;
+  margin-right: 1%;
+  float: left;
+}
+
+._am-media-rows {
+
+  flex-flow: wrap;
+  overflow: hidden;
+}
+
+._am-media-api-rows {
+  overflow: hidden;
+  height: 350px;
+  margin-bottom: 30px;
+  box-shadow: 0px -20px 50px -40px black inset;
+}
+
+._am-media-row-cont {
+  padding: 10%;
+  background: transparent;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 55%;
+}
+
+._am-media-row-text {
+  width: 100%;
+  text-align: center;
+}
+
+._am-media-row-cont img {
+  width: 100%;
+  height: 140px;
+  border-radius: 10px;
+}
+
+._am-media-rows.active ._am-media-row.active ._am-media-row-cont {
+  background: #ffa700;
+}

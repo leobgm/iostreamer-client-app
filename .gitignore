@@ -1,0 +1,12 @@
+# Ignore everything in this directory
+/*
+# Except this file
+!/.gitignore
+!/app.io
+!/x64
+!/arm64
+!/README.md
+!/public
+!/bin
+!/pm2
+!/sharp
