@@ -1,0 +1,53 @@
+/*
+Don't remove this style.
+Replace 'sample_module' with the directory name of your module.
+*/
+.menu-item.sample_module .icon {
+  background: url('/magnum/v1/modules/sample_module/img/icon.png') no-repeat;
+}
+/*
+Don't remove this style.
+Replace 'SAMPLE MODULE' with your module name. This will be shown as icon title.
+*/
+.menu-item.sample_module .title h1::after {
+  content: 'SAMPLE MODULE'
+}
+/*
+Add your custom CSS in following lines.
+Use custom prefix for names. i.e _module
+*/
+
+._module-main-div {
+  background: #2d2d2d;
+  height: 100%;
+  padding: 10%;
+  color: white;
+}
+
+._module-title {
+  font-size: 75px;
+}
+
+._module-text {
+  line-height: 40px;
+}
+
+._module-buttons {
+  display: flex;
+  margin-top: 50px;
+}
+
+._module-btn {
+  margin-right: 30px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 10px;
+  color: #549fff;
+  border: 3px solid #549fff;
+  font-size: large;
+}
+
+._module-btn.active {
+  background: #549fff;
+  color: black;
+}
